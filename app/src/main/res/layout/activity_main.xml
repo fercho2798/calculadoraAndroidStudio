@@ -9,19 +9,12 @@
     android:background="#66918686"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/respuesta"
-        android:layout_width="match_parent"
-        android:layout_height="137dp"
-        android:layout_weight="1"
-        android:text="0"
-        android:textColor="#E91E63"
-        android:textSize="30sp" />
+
 
     <EditText
         android:id="@+id/numero1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="5dp"
         android:layout_weight="1"
         android:ems="10"
         android:hint="Escribe un numero"
@@ -38,7 +31,7 @@
 
     <TableLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="10dp"
         android:layout_weight="1">
 
         <TableRow
@@ -48,16 +41,16 @@
             <Button
                 android:id="@+id/button_suma"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="90dp"
                 android:layout_weight="1"
-                android:text="Suma" />
+                android:text="+" />
 
             <Button
                 android:id="@+id/button_resta"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="90dp"
                 android:layout_weight="1"
-                android:text="Resta" />
+                android:text="-" />
         </TableRow>
 
         <TableRow
@@ -67,18 +60,27 @@
             <Button
                 android:id="@+id/button_division"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="90dp"
                 android:layout_weight="1"
-                android:text="División" />
+                android:text="/" />
 
             <Button
                 android:id="@+id/button_multiplicacion"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="90dp"
                 android:layout_weight="1"
-                android:text="Multiplicación" />
+                android:text="*" />
         </TableRow>
 
+
     </TableLayout>
+    <TextView
+        android:id="@+id/respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_weight="1"
+        android:text="0"
+        android:textColor="#E91E63"
+        android:textSize="30sp" />
 
 </LinearLayout>
